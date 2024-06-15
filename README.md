@@ -35,3 +35,5 @@ services:
 * `nest g service prisma`
 ### Add Prisma Client
 * `npm i @prisma/client`
+### UserAuth
+* `npm i @nestjs/jwt`
