@@ -31,6 +31,7 @@ services:
 ### Prisma migrate
 * `npx prisma migrate dev`
 ### Service Prisma connection
+* `nest g module prisma`
 * `nest g service prisma`
 ### Add Prisma Client
 * `npm i @prisma/client`
