@@ -7,3 +7,4 @@ Esquenta DevFullCicle
 * `npm i -g @nestjs/cli`
 * `nest new nestjs-multitenancy`
 * `nest g module auth`
+* `npx nest g controller auth/users`
