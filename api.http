@@ -6,6 +6,16 @@ Content-Type: application/json
 
 {
     "name": "John Doe",
-    "email": "test6@test.com",
+    "email": "test7@test.com",
+    "password": "123456"
+}
+
+###
+POST http://localhost:3000/partner/users
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "test10@test.com",
     "password": "123456"
 }
