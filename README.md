@@ -28,3 +28,5 @@ services:
 ```
 ### Run Docker
 * `docker compose up`
+### Prisma migrate
+* `npx prisma migrate dev`
