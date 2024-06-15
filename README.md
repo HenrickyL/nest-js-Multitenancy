@@ -12,4 +12,6 @@ Esquenta DevFullCicle
 ### Create Controller
 * `nest g controller auth/users`
 ### Create Service
-* `nest g service auth/users`  
+* `nest g service auth/users`
+### Add Prisma
+* `npx prisma init`
