@@ -15,3 +15,16 @@ Esquenta DevFullCicle
 * `nest g service auth/users`
 ### Add Prisma
 * `npx prisma init`
+### Use Docker
+```yaml
+services:
+  db:
+    image: mysql:8.0.30-debian
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=nest
+    ports:
+      - 3306:3306
+```
+### Run Docker
+* `docker compose up`
