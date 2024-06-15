@@ -30,3 +30,5 @@ services:
 * `docker compose up`
 ### Prisma migrate
 * `npx prisma migrate dev`
+### Service Prisma connection
+* `nest g service prisma`
