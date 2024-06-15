@@ -10,7 +10,7 @@ export class UsersService {
     return this.prismaService.user.create({
       data: {
         ...data,
-        roles: UserRoles.USER,
+        roles: [UserRoles.USER],
       },
     });
   }
